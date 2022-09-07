@@ -1,0 +1,32 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 48px;
+}
+
+h1 {
+    color: maroon;
+}
+
+h2 {}
+
+.bolded {
+    font-weight: 600;
+}
+
+.line_section {
+    line-height: 32px;
+    margin: 64px;
+    border: solid;
+    padding: 24px;
+    border-width: 1px;
+    border-radius: 4px;
+}
+
+.center {
+    text-align: center;
+}
+
+.action {
+    font-style: italic;
+    margin: 12px;
+}
