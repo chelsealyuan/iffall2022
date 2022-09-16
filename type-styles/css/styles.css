@@ -1,0 +1,95 @@
+html {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+}
+
+body {
+  margin: 48px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-block-start: 0em;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 12px;
+  color: rgb(77, 83, 107);
+}
+
+p {
+  margin-block-start: 0.5em;
+  margin-block-end: 1.5em;
+}
+
+.grid-container {
+  display: grid;
+  grid-auto-flow: column;
+  grid: auto / 1fr 1fr 1fr;
+}
+
+.card {
+  flex: 1;
+  margin: 24px;
+  padding: 36px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.1), 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+.type-style {
+  margin: 0 0 24px 0;
+}
+
+.normal {
+  font-weight: 400;
+}
+
+section.font-weight p.bold {
+  font-weight: 700;
+}
+
+section.font-style p.italic {
+  font-style: italic;
+}
+
+section.letter-spacing p.wide {
+  letter-spacing: 0.2em;
+}
+
+section.letter-spacing p.narrow {
+  letter-spacing: -0.08em;
+}
+
+section.text-decoration p.none {
+  text-decoration: none;
+}
+
+section.text-decoration p.underline {
+  text-decoration: underline;
+}
+
+section.text-decoration p.line-through {
+  text-decoration: line-through;
+}
+
+section.text-decoration p.overline {
+  text-decoration: overline;
+}
+
+section.text-transform p.none {
+  text-transform: none;
+}
+
+section.text-transform p.uppercase {
+  text-transform: uppercase;
+}
+
+section.text-transform p.lowercase {
+  text-transform: lowercase;
+}
+
+section.text-transform p.capitalize {
+  text-transform: capitalize;
+}
