@@ -7,6 +7,7 @@
       rel="stylesheet"
       href="https://wudesign.me/resources/using-images/css/styles.css"
     />
+    <link rel="stylesheet" href= css/styles.css />
   </head>
   <body>
     <h1>Using Images</h1>
@@ -21,6 +22,10 @@
           The <code class="tag">img</code> tag is the simplest and most common
           way to display an image in an html page.
           <!-- Put the smiley <img> here. -->
+          <img
+            src="http://wudesign.me/resources/using-images/images/smiley.jpg"
+            alt="yellow smiley face"
+          />
           It requires a <code>src</code> attribute, which indicates where the
           browser will find the image, and an <code>alt</code> attribute, which
           provides a textual version of the image for screen-readers.
@@ -81,6 +86,11 @@
         </ol>
 
         <!-- Put the shelf-cloud-wide <img> here. -->
+        <img
+          src="http://wudesign.me/resources/using-images/images/shelf-cloud-wide.jpg"
+          alt="image of cloud"
+          class="full-screen"
+        />
       </section>
 
       <section>
@@ -108,6 +118,11 @@
         </ol>
 
         <!-- Put the second shelf-cloud-wide <img> here. -->
+        <img
+          src="http://wudesign.me/resources/using-images/images/shelf-cloud-wide.jpg"
+          alt="image of cloud"
+          class="square"
+        />
 
         <p>
           The image is stretched! Not what we wanted. We need to tell the image
@@ -436,8 +451,10 @@
 
         <figure class="compressed-image">
           <!-- your <img> here... -->
+          <img src="images/compressed_img.jpg" alt="compressed image of crows eating a rabbit" class="my-image">
           <figcaption>
             <!-- ---px wide, --% jpeg compression, --KB -->
+            Pixel Width: 1770px; JPEG Compression: 66%; KB: 37 KB
           </figcaption>
         </figure>
 
