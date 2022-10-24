@@ -1,0 +1,323 @@
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  padding-top: 36px;
+  padding-bottom: 48px;
+  background-image: linear-gradient(
+      to bottom,
+      rgb(0, 0, 0, 0),
+      rgba(0, 0, 0, 1)
+    ),
+    url("../assets/castella_finish.jpeg");
+
+  background-size: cover;
+  background-position: center;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 120px;
+  margin-bottom: 12px;
+}
+
+.header-text {
+  margin-top: 250px;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 64px;
+  margin-block-end: 0px;
+  box-sizing: border-box;
+}
+h3 {
+  font-size: 20px;
+}
+
+body {
+  margin: 0px;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(50, 50, 50);
+}
+
+footer {
+  margin: 16px;
+  list-style: none;
+  word-wrap: break-word;
+  text-align: center;
+  font-size: 12px;
+}
+
+button {
+  background: none;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+
+.header-content-area {
+  max-width: 1024px;
+  width: 70%;
+  margin: auto;
+  color: rgb(255, 255, 255);
+}
+
+.content-area {
+  max-width: 768px;
+  width: 70%;
+  margin: auto;
+}
+
+section {
+  margin-top: 48px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+}
+
+.info-line {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  padding-inline-start: 0px;
+  justify-content: space-between;
+  margin: 48px 1em;
+}
+
+.info-line li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-header {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(120, 120, 120);
+}
+
+.info-description {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.equipment-ingredients {
+  display: flex;
+}
+
+.equipment {
+  width: 40%;
+  margin-right: 48px;
+}
+
+.ingredients-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0.5rem;
+}
+
+.ingredient-amount {
+  font-weight: bold;
+  text-align: right;
+}
+
+.ingredient-description {
+  text-align: left;
+}
+
+.directions {
+  list-style: none;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 1rem;
+}
+
+.numbers {
+  border: 1.5px solid rgb(50, 50, 50);
+  width: 28px;
+  height: 28px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.photo-gallery img {
+  width: 100%;
+}
+
+.two-images {
+  display: flex;
+}
+
+.two-images > div {
+  width: 50%;
+  margin-bottom: 24px;
+}
+
+.image1 {
+  margin-right: 24px;
+}
+
+.caption {
+  font-size: 12px;
+  line-height: 18px;
+  margin: 0px;
+  margin-right: 12px;
+}
+
+.full-image {
+  margin-bottom: 24px;
+}
+
+a:link {
+  color: rgb(50, 50, 50);
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+a:visited{
+  color: rgb(50, 50, 50);
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  .logo {
+    width: 100px;
+    margin-bottom: 6px;
+  }
+
+  button {
+    font-size: 10px;
+  }
+  .content-area {
+    max-width: 556px;
+  }
+
+  .dot {
+    display: none;
+  }
+
+  #preparation-info {
+    flex-direction: column;
+  }
+
+  .header-text {
+    margin-top: 220px;
+  }
+
+  .equipment-ingredients {
+    flex-direction: column;
+  }
+  .ingredients,
+  .equipment {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  header {
+    height: 350px;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+
+  section {
+    margin-top: 24px;
+  }
+
+  .header-text {
+    margin-top: 150px;
+  }
+
+  .header-content-area {
+    max-width: 331px;
+    width: 80%;
+  }
+
+  .content-area {
+    max-width: 331px;
+    width: 80%;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .equipment-ingredients {
+    flex-direction: column;
+  }
+  .ingredients,
+  .equipment {
+    width: 100%;
+  }
+
+  .info-header {
+    font-size: 12px;
+  }
+
+  .info-description {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .two-images {
+    flex-direction: column;
+  }
+
+  .two-images > div {
+    width: 100%;
+  }
+
+  footer {
+    font-size: 10px;
+    line-height: 16px;
+  }
+  .info-line {
+    margin: 24px 1em;
+  }
+  .image1 {
+    margin-right: 0px;
+  }
+}
