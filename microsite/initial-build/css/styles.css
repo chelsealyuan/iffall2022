@@ -178,8 +178,8 @@ p {
   display: flex;
   flex-direction: column;
   width: 25%;
-  margin: 0px 24px 0px 0px;
-  align-items: flex-start;
+  margin: 0px 16px 0px 0px;
+  justify-content: flex-start;
 }
 
 .image-card img {
@@ -192,6 +192,7 @@ p {
 .image-gallery {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
 }
 
 @media only screen and (max-width: 768px) {
